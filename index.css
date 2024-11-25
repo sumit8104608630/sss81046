@@ -242,6 +242,9 @@ outline: none;
         width: 70%;
 
     }
+    .headLine{
+        width: 100%;
+    }
     .headLine,.headline3{
         font-size: 20px ;
     }
