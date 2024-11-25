@@ -101,10 +101,18 @@
     height: 200px;
     width: 100%;
 }
-.section2,.section3{
+.section3{
     margin-top: 50px;
     padding-left: 400px;
     padding-right: 400px;
+}
+.section2{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+.para2{
+    width: 50%;
 }
 
 .section3{
@@ -176,7 +184,9 @@ outline: none;
     margin-bottom: 15px;
     font-size: 1rem;
 }
-
+.btn2{
+    width: 100px;
+}
 
 
 .card:hover {
@@ -198,7 +208,62 @@ outline: none;
 
 
 .link3{
-
     color: white;
     text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    .section1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .section2,.section3{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex3{
+        flex-direction: column;
+        align-items: center;
+        box-shadow: none;
+    }
+    .f1{
+        height: 250px;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .paraga {
+        padding: 20px 50px;
+    }
+    .card{
+        width: 70%;
+
+    }
+    .headLine,.headline3{
+        font-size: 20px ;
+    }
+    .small_para,.para2{
+        font-size: 10px;
+    }
+    .btn,.section2,.section3,input{
+        font-size: 10px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .btn2{
+        padding: 5px 10px;
+        font-size: 10px;
+        
+    }
+    input{
+        width: 100%;
+        
+    }
+    .para2{
+        width: 100%;
+    }
 }
